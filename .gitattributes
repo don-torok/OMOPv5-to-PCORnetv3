@@ -1,0 +1,2 @@
+# .gitattributes
+*.docx diff=pandoc

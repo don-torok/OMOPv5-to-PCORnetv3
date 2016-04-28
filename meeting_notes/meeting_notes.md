@@ -122,6 +122,33 @@ Toan: Is going to add a table at the top of ‘ETL from OMOP CDM v5 to PCORnet C
 
 Don/Rimma need to identify attributes that we think should be added to the OMOP CDM tables because they are important in their own right and they will help in conversion from OMOP to PCORnet.
 
-**Testing Pandoc**
+OMOP to PCORnet Meeting Notes 4/07/2016
+=======================================
+Discussed result of OMOP meeting where Rimma proposed that OMOP should make the admission source, discharge disposition attributes in the visit occurrence table.  
 
-This is a new sentence.
+Agreed that the DRG should be moved to the cost table.
+
+The current proposed PCORnet conventions document is in https://github.com/don-torok/OMOPv5-to-PCORnetv3/blob/master/OMOP_conventions/CDRN%20Conventions%20for%20Populating%20OMOP%20CDM%20v5%20for%20PCORnet%20v3.docx
+
+Started work on OMOP to PCORnet v3 document.  Added a table of changes that need to be addressed.
+
+Homework:
+Joan will find spreadsheet that list all difference between PCORnet v2 and v3 and distribute to group and Don will post to git repository.
+
+Toan will continue work on OMOP to PCORnet v3 document adding item that need to be address.
+
+Don change conventions document, put the DRG in the cost table after Rimma finds link describing the new OMOP cost table.
+
+OMOP to PCORnet Meeting Notes 4/28/2016
+================================================================
+We reviewed the document "ETL from OMOP CDM v5 to PCORnet CDM v3", adding to the table list changes in PCORnet v3.
+
+HomeWork
+Don - add history an arrange directories in github.  Add previous versions of conventions and omop to pcornet
+
+
+
+
+
+
+
