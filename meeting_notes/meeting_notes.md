@@ -147,6 +147,17 @@ HomeWork
 Don - add history an arrange directories in github.  Add previous versions of conventions and omop to pcornet
 
 
+Meeting Notes May 5, 2016
+=================================================================
+Toan distributed 'TOBACCO and TOBACCO Type convention for PCORNet V3_ekb to.docx', which describes how to populate the PCORnet v3 columns **SMOKING**, **TOBACCO**, and **TOBACCO TYPE**  from the values listed in 'CDRN Conventions for Populating OMOP CDM v5 for PCORnet v3'.  Toan was not on hand to describe the document to the rest of the group.  Don had trouble reconciling concept id's in Toan's document to those listed in the CDRN conventions document.
+
+As a group we looked at 'ETL from OMOP CDM v5 to PCORnet CDM v3' and determined that the sections that require changes.  A list of outstanding issues for the OMOPv4 to PCORnet v3 document is in a table starting on page two.
+
+Latest documents posted to githup
+
+Homework
+Review 'ETL from OMOP CDM v5 to PCORnet CDM v3'.  Be prepared to fill in Death and Death Cause sections.
+
 
 
 
