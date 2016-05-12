@@ -158,6 +158,35 @@ Latest documents posted to githup
 Homework
 Review 'ETL from OMOP CDM v5 to PCORnet CDM v3'.  Be prepared to fill in Death and Death Cause sections.
 
+Meeting Notes May 12, 2016
+=========================================================================
+
+Dean Dean Calabrese will be taking over Joan Leavey's responsibilities for NYC CDRN.
+
+We started a review of the document 'TOBACCO and TOBACCO Type convention for PCORNet V3_ekb to.docx' that Toan had distributed to the group.  The document proposes creating 3 observation type records that correspond to the PCORnet Vital fields Tobacco, Smoking and Tobacco type.  Toan proposed a logical partitioning of the tobacco related question into 3 categories Tobacco; Smoking and Tobacco Type. Where Tobacco answers if the person is a tobacco user, Smoking answers the frequency/amount of tobacco use; and Tobacco Type is used to describe the tobacco type used.
+
+There was a question of how this new proposal relates to the previously defined conventions in 'CDRN Conventions for Populating OMOP CDM v5 for PCORnet v3.docx'
+
+Don raised the question of why the concept relationship table is being used to link tobacco observations records together, arguing that the visit occurrence id and observation date are sufficient.
+
+## Homework ##
+Everyone
+Review Toan's document 'TOBACCO and TOBACCO Type convention for PCORNet V3_ekb to.docx'. With an eye toward:
+
+- Does the partitioning of tobacco related information into the three categories list above make sense and adequately cover possible responses.
+- Are there better concept id's that can be used to represent the 3 categories.
+
+Rob:
+Create a quick document that explains how you have already implemented the tobacco related information at your site.
+
+Rimma:
+See how closely what we are planning aligns with any work OMOP is doing to capture tobacco related information in OMOP CDM.
+
+## Next Week ##
+Finish review of tobacco proposal.
+
+
+
 
 
 
