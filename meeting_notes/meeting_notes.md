@@ -185,6 +185,32 @@ See how closely what we are planning aligns with any work OMOP is doing to captu
 ## Next Week ##
 Finish review of tobacco proposal.
 
+Meeting Notes May 19, 2016
+=============================================================================
+Meeting called off because so few members dialed in.  The topic was to be conventions for tobacco related information.  Rob wrote up how he implemented the tobacco question in the OMOP CDM and how that is used to populate the vital entries in PCORNet v3.  The document, 'Tobacco Write Up_UCLA.docx' is in github under the misc_docs directory.
+
+There is move to standardize how tobacco use information is recorded in OMOP.  Don is pessimistic that there will be consensus within the OMOP community any time soon and suggests that, for now, we follow Rob's implementation and then if/when OMOP agrees to a standard, we can change over to that implementation.
+
+Meeting Notes May 26, 2016
+===========================================================================================
+At an earlier meeting where the goal was to define conventions for storing tobacco related information in the OMOP CDM, Rimma had presented an Excel Spread sheet that listed SNOMED related tobacco codes.  This spread sheet partitioned the codes into the following categories:
+
+- Tobacco Non-User
+- Tobacco Use Cessation Counseling
+- Tobacco Use Cessation Pharmacotherapy
+- Tobacco Use Screening
+- Tobacco User
+Within each of the above categories, there are defined a list of valid entries.  The scheme of representing this within OMOP CDM will be to assign an Observation Concept Id for each of the above categories and then use the value as concept id for recording the valid entries.
+
+The first snag with this scheme is that there are not concepts for all categories listed above, but that can be solved.  The spread sheet does provide SNOMED Codes (and a few CPT code) for all the entries within the categories and it is assumed that the vocabulary does have concepts for all of these codes.
+
+The spread sheet, SNOMED_smoking_concepts.xlsx, limited to just the tobacco related information, is posted in github https://github.com/don-torok/OMOPv5-to-PCORnetv3 under misc_docs.
+
+## Homework##
+Two things are necessary to determine if this scheme will be satisfactory 1) the first is to determine if the list of valid entries (the description column in the Excel doc) is sufficient to capture all the information we have seen in our source data and 2) to determine what is required to map the above list of concepts into the tobacco categories defined in PCORnet v3.  Users should try this exercise using the source data they are familiar with.
+
+
+
 
 
 
