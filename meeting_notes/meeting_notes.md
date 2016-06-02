@@ -210,6 +210,9 @@ The spread sheet, SNOMED_smoking_concepts.xlsx, limited to just the tobacco rela
 Two things are necessary to determine if this scheme will be satisfactory 1) the first is to determine if the list of valid entries (the description column in the Excel doc) is sufficient to capture all the information we have seen in our source data and 2) to determine what is required to map the above list of concepts into the tobacco categories defined in PCORnet v3.  Users should try this exercise using the source data they are familiar with.
 
 
+Meeting Notes June 2, 2016
+===================================================================================
+Still taking about tobacco.  But looks like we are coming closer to a consensus on how to represent the data in OMOP. The basic scheme is to use a single Observation Concept, Tobacco use and exposure (4041306) to group all of a patient's tobacco related findings. Then the specific values describing a person's tobacco history will be recorded in the value as concept id. The list of concepts to use for the value as concept id is to be defined.  The current list is in  https://github.com/don-torok/OMOPv5-to-PCORnetv3/misc_docs/OMOP_concept_for_smoking.xlsx.  The more concepts that can be eliminated from this list, while still remaining comprehensive enough to represent values found in the source data, the easier it will be to convert the possible combination into the PCORnet vital table values.
 
 
 
