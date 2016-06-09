@@ -214,6 +214,22 @@ Meeting Notes June 2, 2016
 ===================================================================================
 Still taking about tobacco.  But looks like we are coming closer to a consensus on how to represent the data in OMOP. The basic scheme is to use a single Observation Concept, Tobacco use and exposure (4041306) to group all of a patient's tobacco related findings. Then the specific values describing a person's tobacco history will be recorded in the value as concept id. The list of concepts to use for the value as concept id is to be defined.  The current list is in  https://github.com/don-torok/OMOPv5-to-PCORnetv3/misc_docs/OMOP_concept_for_smoking.xlsx.  The more concepts that can be eliminated from this list, while still remaining comprehensive enough to represent values found in the source data, the easier it will be to convert the possible combination into the PCORnet vital table values.
 
+Meeting Notes June 9, 2016
+=====================================================================================================
+Just talking about tobacco may be the death of us.  We viewed an excel workbook with a list of concepts that we
+believe are sufficient to cover the vast majority of potential answers to tobacco use and exposure values we are likely to see in the source data.  
+
+We agreed that these values will be stored in the observation table
+We agreed that for 'How many years did you smoke up to now' which is a LOINC code, the value as concept id would
+hold the concept id for the LOINC code and that if the value representing years was numeric it would be stored in
+value as number.
+
+The next step after capturing all the data in OMOP is to determine how these values will map into the PCORnet vital table columns SMOKING, TOBACCO and TOBACCO TYPE.  This is being taken on as homework.
+
+## Homework ##
+Starting with the workbook 'OMOP_concept_for_smoking.xlsx' each person should work on how to map the possible OMOP values into PCORnet.
+
+
 
 
 
