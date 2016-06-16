@@ -228,6 +228,14 @@ The next step after capturing all the data in OMOP is to determine how these val
 
 ## Homework ##
 Starting with the workbook 'OMOP_concept_for_smoking.xlsx' each person should work on how to map the possible OMOP values into PCORnet.
+Meeting Notes June 16,2016
+==============================================================================================================
+Don presented his 'Possible Solution for Mapping OMOP Observation to PCORnet Vital Smoking'.  See "A Solution for Mapping OMOP Observation to PCORnet Vital Smoking.docx" and "tobacco_qualifier_to_pcornet_2.xlsx" under misc_docs in git hub. 
+Initial feedback was that this looked to be a viable solution.
+##Homework##
+Review don's two documents, ask questions if necessary, be ready at the next meeting to say yes if you believe this is a workable solution or no if you find errors in the logic or cases that cannot be handled.
+
+
 
 
 
