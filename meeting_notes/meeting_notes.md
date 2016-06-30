@@ -234,6 +234,13 @@ Don presented his 'Possible Solution for Mapping OMOP Observation to PCORnet Vit
 Initial feedback was that this looked to be a viable solution.
 ##Homework##
 Review don's two documents, ask questions if necessary, be ready at the next meeting to say yes if you believe this is a workable solution or no if you find errors in the logic or cases that cannot be handled.
+Meeting Notes June 30 2016
+=============================================================================================================
+We have agreed to a solution for how to record tobacco use in OMOP and to translate the values from OMOP to tobacco related values in the PCORnet vital table. It remains for Don to write up this solution and add it to 'ETL from OMOP CDM v5 to PCORnet CDM v3.doc'.
+
+##Homework##
+Review the Lab_Result_CM section in 'ETL from OMOP CDM v5 to PCORnet CDM v3.doc' available at https://github.com/don-torok/OMOPv5-to-PCORnetv3/blob/master/OMOP5_to_PCORnet3/ETL%20from%20OMOP%20CDM%20v5%20to%20PCORnet%20CDM%20v3.doc and be prepared to vet the section as is, or to add additional information that may be needed.
+
 
 
 
