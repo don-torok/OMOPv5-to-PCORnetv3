@@ -241,6 +241,13 @@ We have agreed to a solution for how to record tobacco use in OMOP and to transl
 ##Homework##
 Review the Lab_Result_CM section in 'ETL from OMOP CDM v5 to PCORnet CDM v3.doc' available at https://github.com/don-torok/OMOPv5-to-PCORnetv3/blob/master/OMOP5_to_PCORnet3/ETL%20from%20OMOP%20CDM%20v5%20to%20PCORnet%20CDM%20v3.doc and be prepared to vet the section as is, or to add additional information that may be needed.
 
+Meeting Note July 7, 2016
+==========================================================================================
+All agreed that little work was done during the July 4 holiday and that we should continue with the same homework assignment to review the Lab Result CM section to see if there are outstanding questions.  Don said that he has a mapping from UCUM Units to the unit representation recommended by PCORnet. A copy of this document is in github under misc_docs.
+
+##Homework##
+Review the Lab_Result_CM section in 'ETL from OMOP CDM v5 to PCORnet CDM v3.doc' available at https://github.com/don-torok/OMOPv5-to-PCORnetv3/blob/master/OMOP5_to_PCORnet3/ETL%20from%20OMOP%20CDM%20v5%20to%20PCORnet%20CDM%20v3.doc and be prepared to vet the section as is, or to add additional information that may be needed.
+
 
 
 
