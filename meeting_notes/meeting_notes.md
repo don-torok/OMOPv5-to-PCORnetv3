@@ -248,6 +248,33 @@ All agreed that little work was done during the July 4 holiday and that we shoul
 ##Homework##
 Review the Lab_Result_CM section in 'ETL from OMOP CDM v5 to PCORnet CDM v3.doc' available at https://github.com/don-torok/OMOPv5-to-PCORnetv3/blob/master/OMOP5_to_PCORnet3/ETL%20from%20OMOP%20CDM%20v5%20to%20PCORnet%20CDM%20v3.doc and be prepared to vet the section as is, or to add additional information that may be needed.
 
+Meeting Notes July 21, 2016
+===========================================================================================================
+We had a number of people from Health Language, which is affiliated with Wolters Kluwer Health’s Clinical Solutions call into the meeting for a question and answer session on services that Health Language provides.  The entire meeting revolved around how Health Language could help a site to map their internal lab codes to LOINC identifiers. A site would provide as much information as possible describing lab tests that they order and a program that Health Languages wrote would map those attributes to a LOINC code and provide a level of confidence for the mapping.  Price was not discussed.
+
+Depending on interest, we may have a follow-up meeting about natural language processing of clinical notes.
+
+Lisa Schilling, lisa.schilling@ucdenver.edu, has offered to be our liaison with Health Language.
+
+##Homework##
+Determine if we would like a second meeting with Health Language to talk about using Natural Language Processing to extract clinical information from EHR notes and how this information might be brought into OMOP/PCORnet.
+
+Health Language provided some insight on how to map to specific LOINC codes.  A quick google search identified the 6 axis (attributes) of LOINC's classification of Lab information.
+
+1. Component (analyte): e.g., potassium, hemoglobin, hepatitis B antigen 
+1. Property measured: e.g., a mass concentration, enzyme activity (catalytic rate) 
+1. Timing: i.e., whether the observation applies to a moment in time or is an average or amount taken over a period of time, as is the case for a 24-h urine sodium concentration  
+1. System: i.e., type of sample or organ examined: e.g., urine, blood, chest 
+1. Scale: e.g., whether the measurement is quantitative (a true measurement), ordinal (a ranked set of options), nominal, or narrative (e.g., dictation results from x-rays)  
+1. Method used to produce the observation, but only when different methods give clinically significant different results( an alternative definition: The process by which an observation value was obtained. Example methods include: weighing, use of a mass spectrometer, use of an ion sensitive electrode, and examination using a microscope.)
+
+It would be interesting to see, with some additional googling, if someone could find a list of LOINC codes broken down by the 6 axis listed above.
+
+
+
+
+
+
 
 
 
