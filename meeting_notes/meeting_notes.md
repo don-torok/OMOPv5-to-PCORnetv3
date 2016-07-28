@@ -270,9 +270,19 @@ Health Language provided some insight on how to map to specific LOINC codes.  A 
 
 It would be interesting to see, with some additional googling, if someone could find a list of LOINC codes broken down by the 6 axis listed above.
 
+Meeting Notes July 28, 2016
+=====================================================================================================
+Reviewed tasks necessary to update the OMOP Conventions and OMOP to PCORnet ETL documents to be consistent with OMOP CDMv5 and PCORnet v3.  Documents are in public git repository don-torok/OMOPv5-to-PCORnetv3.  The concentions document is under OMOP_conventions/CDRN Conventions for Populating OMOP CDM v5 for PCORnet v3.docx and the ETL document is under OMOP5_to_PCORnet3/ETL from OMOP CDM v5 to PCORnet CDM v3.docx.
 
+Introduced new member Monica Ahuja from N.Y. CDRN
 
+##Homework##
+Lisa and Toan are going to get the "ETL from OMOP CDMv5 to PCORnet CDM v3" document from git and experiment with loading the document into google docs and making edits.  PCORnet changed the data-type for their date fields from text to date in version 3, Lisa will change to ETL doc to be consistent with the current date data-type.
 
+Don will make changes to the Tobacco section of the conventions document to support our current scheme for recording tobacco related information in OMOP.
+
+##Follow-up from last meeting##
+Resources for mapping local labs to LOINC codes can be found at https://loinc.org/downloads.
 
 
 
