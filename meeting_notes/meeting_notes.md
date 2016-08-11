@@ -272,7 +272,7 @@ It would be interesting to see, with some additional googling, if someone could 
 
 Meeting Notes July 28, 2016
 =====================================================================================================
-Reviewed tasks necessary to update the OMOP Conventions and OMOP to PCORnet ETL documents to be consistent with OMOP CDMv5 and PCORnet v3.  Documents are in public git repository don-torok/OMOPv5-to-PCORnetv3.  The concentions document is under OMOP_conventions/CDRN Conventions for Populating OMOP CDM v5 for PCORnet v3.docx and the ETL document is under OMOP5_to_PCORnet3/ETL from OMOP CDM v5 to PCORnet CDM v3.docx.
+Reviewed tasks necessary to update the OMOP Conventions and OMOP to PCORnet ETL documents to be consistent with OMOP CDMv5 and PCORnet v3.  Documents are in public git repository don-torok/OMOPv5-to-PCORnetv3.  The conventions document is under OMOP_conventions/CDRN Conventions for Populating OMOP CDM v5 for PCORnet v3.docx and the ETL document is under OMOP5_to_PCORnet3/ETL from OMOP CDM v5 to PCORnet CDM v3.docx.
 
 Introduced new member Monica Ahuja from N.Y. CDRN
 
@@ -283,6 +283,24 @@ Don will make changes to the Tobacco section of the conventions document to supp
 
 ##Follow-up from last meeting##
 Resources for mapping local labs to LOINC codes can be found at https://loinc.org/downloads.
+
+Meeting Notes August 4, 2016
+==========================================================================================================
+From last weeks homework, Toan had loaded the OMOPv5 to PCORnet v3 document into google docs and we demonstrated that 1) the document did NOT loose existing formatting from word and 2) that multiple people can edit the document.  This is a vast improvement from maintaining the document in git where the file is treated as a binary file and can not merge changes. Given this new functionality, different items in the OMOP to PCORnet document that need to be corrected were assigned to people in the group.
+
+As an aside, there was a discussion of how UC Denver is doing their ETL from a few different health providers EHR systems into a "pre-ETL" table and then using Rosita to ETL into OMOP CDMv4 tables.  Note, currently not assigning the target table as a function of the mapped to concept's domain or mapping type.  If there is sufficient interest in this approach to ETL we may use one of our meetings for a demo or set-up a demo outside of our standard meeting time.
+
+##Homework##
+Toan will move the OMOP conventions document from GitHub into google docs and grant edit privileges to whomever from the group is interested in sending their gmail addresses to Toan.  Others who may only want read can also request it from Toan.
+
+Some items that are defined in a table at the beginning of the OMOP to PCORnet ETL doc as needed to be updated were assigned to various people in the group.  Edits will be done in google docs. Those given sections to update include Don, Rimma, Toan and Lisa. 
+
+New comers Monika and Patrick and going to review the OMOP conventions and OMOP to PCORnet ETL docs to see if they make sense to someone that is new to the project.
+
+
+
+
+
 
 
 
