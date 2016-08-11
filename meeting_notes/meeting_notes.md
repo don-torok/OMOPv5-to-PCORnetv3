@@ -298,13 +298,18 @@ Some items that are defined in a table at the beginning of the OMOP to PCORnet E
 New comers Monika and Patrick and going to review the OMOP conventions and OMOP to PCORnet ETL docs to see if they make sense to someone that is new to the project.
 
 
+Meeting Notes August 11, 2016
+========================================================================================================
+Don discussed plans to update the smoking section in the OMOP CDM5 Conventions document.  He proposed eliminating some existing concepts that have overlapping descriptions. It was suggested that before removing concepts he distribute a document noting the items he wants to remove.  On the flip side Don suggested adding the CPT concepts that are used in answering the 'Meaningful Use Core Measures' for tobacco.  There was an argument against adding these codes to the recommended set of codes, so Don agree to supply a mapping from the Meaningful Use CPT codes to the set of concepts that describe tobacco use.
 
+##Homework##
+Don will upload the latest concentions document into Google docs and make available to group.
 
+Rimma will update her changes into OMOP to PCORnet ETL and OMOP conventions.
 
+Patrick H. will look at the demographic section of the OMOP to PCORnet ETL document.
 
-
-
-
+Don will distribute an excel workbook with the Smoking concepts he intends to remove.  And the mapping from the Meaningful Use CTP codes to SNOMED.
 
 
 
