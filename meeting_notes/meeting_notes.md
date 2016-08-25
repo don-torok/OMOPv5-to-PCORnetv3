@@ -303,7 +303,7 @@ Meeting Notes August 11, 2016
 Don discussed plans to update the smoking section in the OMOP CDM5 Conventions document.  He proposed eliminating some existing concepts that have overlapping descriptions. It was suggested that before removing concepts he distribute a document noting the items he wants to remove.  On the flip side Don suggested adding the CPT concepts that are used in answering the 'Meaningful Use Core Measures' for tobacco.  There was an argument against adding these codes to the recommended set of codes, so Don agree to supply a mapping from the Meaningful Use CPT codes to the set of concepts that describe tobacco use.
 
 ##Homework##
-Don will upload the latest concentions document into Google docs and make available to group.
+Don will upload the latest conventions document into Google docs and make available to group.
 
 Rimma will update her changes into OMOP to PCORnet ETL and OMOP conventions.
 
@@ -311,10 +311,14 @@ Patrick H. will look at the demographic section of the OMOP to PCORnet ETL docum
 
 Don will distribute an excel workbook with the Smoking concepts he intends to remove.  And the mapping from the Meaningful Use CTP codes to SNOMED.
 
+Meeting Notes August 18, 2016
+==========================================================================================================
+The bulk of the meeting was spent discussing how to best use google docs to allow simultaneous work in Conventions and OMOP to PCORnet documents.
 
+## Homework ##
+Don will create a folder for the Conventions and ETL documents.  Move in the conventions document and request that Toan move the working copy of the ETL document into the single shared folder.
 
-
-
+Numerous people signed up to tasks in the Outstanding Issues table in the ETL document.
 
 
 
