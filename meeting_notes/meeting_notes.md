@@ -320,6 +320,24 @@ Don will create a folder for the Conventions and ETL documents.  Move in the con
 
 Numerous people signed up to tasks in the Outstanding Issues table in the ETL document.
 
+Meeting Notes Aug 25, 2016
+===================================================================================================
+Meeting was about process of using Google Docs as a place to collaboratively work on the Conventions and ETL documents.  We created a directory to hold the documents and showed that the directory permission to edit are inherited by the individual files.  
 
+Patrick looked at the demographic table and determined that everything except for possible the Biobank flag is accounted for in the Conventions and ETL doc.
 
+Monika looked that procedures and questioned if the OMOP procedure table with the procedure type is sufficient to populate the px_source in PCORnet.  Possible px_source values are:
+OD=Order
+BI=Billing
+CL=Claim
+NI=No information
+UN=Unknown
+OT=Other
+
+Rimma made a number of changes to the OMOP Conventions document.
+
+## Homework ##
+Don needs to move the conventions doc that Rimma updated into the share folder, append his changes, and then make that version the shared version we will edit going forward.
+
+Lisa uploaded a survey that PCORnet is requesting be completed.  As a group please review and we will review and try to fill out at the next meeting.
 
