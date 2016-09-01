@@ -341,3 +341,18 @@ Don needs to move the conventions doc that Rimma updated into the share folder, 
 
 Lisa uploaded a survey that PCORnet is requesting be completed.  As a group please review and we will review and try to fill out at the next meeting.
 
+Meeting Notes Aug 25, 2016
+===================================================================================================
+Filled out the PCORnet survey PDC_CDM_Survey_PaperFormat 2016 08 24.docx during the meeting.  
+
+Made the following suggestions:
+
+- Lab table: all labs should be standardized using LOINC. We do not see any inherent value in using a PCORNet-specific vocabulary (Lab_name) to identify (codify) labs tests/results. It requires an additional mapping between LOINC and PCORNet specified Lab_Name. This is akin to having Drug_Name in the Prescribing_Table and not relying on the RxNorm code to identify the drug. By using LOINC we could quickly include all labs in a manner that is consistent with other initiatives that partners have initiated for other data exchange projects, such as EHR, HIEs, etc.
+- Use standardized vocabularies for all domains, we requested this specifically for labs, but feel this is advisable for all domains. This recommendation is based on the ease of future scalability.
+- Addition of a data source id and data type id that allow identification of the source of the data (who is the data custodian i.e., what clinical entity?) as CDMs may have data from more than 1 entity and have more than 1 type of data (clinical, claims, patient-generated). The suggestion is that this information be included in all tables but the demographic table.
+- Dispensing (NDC) and prescription (RxNorm): Use a common standardized vocabulary, if possible, across both tables. We realize they are used differently at the level of the prescriber and the dispenser but it would be much easier for data users (analysts and investigators) if the the same standardized vocabulary was used in each table. Many partners are translating NDC to RxNorm to fill the Prescribing table.
+- Use simple English terms that are commonly understandable for example terms like discharge_dispositon and discharge_status are easily confused with one another. It could be ‘discharge_to’ and ‘discharge_alive’ or ‘discharge_state’ (1=alive, 0=dead, then your other NI, UK, Null). Rx_Basis in the Prescribing table could be Rx_Intent (Dispense, Administer)
+
+
+##Homework##
+Lisa to mail the PCORnet survey
