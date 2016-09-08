@@ -356,3 +356,9 @@ Made the following suggestions:
 
 ##Homework##
 Lisa to mail the PCORnet survey
+
+Meeting Notes September 8,2016
+=======================================================================================================
+We discussed the legitimacy of adding PCORnet specific concepts into standard OMOP CDM fields.  For example the visit_concept_id in the Visit Occurrence table is, by OMOP convention, expected to have one of the following values: Inpatient Visit; Outpatient Visit; Emergency Room Visit; or Long Term Care Visit.  However, as part of the Conventions Document for maintaining values in OMOP needed to populated PCORnet v3, we expand this set of value to include: Emergency-Inhospital Visit; Non-Acute Institutional Stay; Other ambulatory visit; No Information; Unknown; or Other.  Don was concerned that these additional value may interfere with the results of some 'standard' OMOP queries. And that it might be better to limit the possible values to the OMOP conventions and create an new column to hold the encounter type defined my PCORnet.  Consensus was that extending the list of possible concepts was preferable to adding an additional column.
+
+
