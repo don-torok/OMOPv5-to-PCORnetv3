@@ -361,4 +361,15 @@ Meeting Notes September 8,2016
 =======================================================================================================
 We discussed the legitimacy of adding PCORnet specific concepts into standard OMOP CDM fields.  For example the visit_concept_id in the Visit Occurrence table is, by OMOP convention, expected to have one of the following values: Inpatient Visit; Outpatient Visit; Emergency Room Visit; or Long Term Care Visit.  However, as part of the Conventions Document for maintaining values in OMOP needed to populated PCORnet v3, we expand this set of value to include: Emergency-Inhospital Visit; Non-Acute Institutional Stay; Other ambulatory visit; No Information; Unknown; or Other.  Don was concerned that these additional value may interfere with the results of some 'standard' OMOP queries. And that it might be better to limit the possible values to the OMOP conventions and create an new column to hold the encounter type defined my PCORnet.  Consensus was that extending the list of possible concepts was preferable to adding an additional column.
 
+Meeting Notes September 15, 2016
+========================================================================================================
+Discussed how to OMOP should record lab information with regard to also the PCORnet Lab Result CM table.  The gist of the discussion was about how to accommodate the three possible dates in the PCORnet Lab Result CM table, *Lab Order Date*, *Specimen date*, and *Result date*.
+
+It was agreed that the most significant date is when the specimen is taken.  Therefore, we will add the comment to the conventions document that the *measurement date* should reflect the specimen date.  The OMOP to PCORnet ETL document already states that the PCORnet *specimen date* is taken from the Observation *observation date*.  
+
+The rest of the solution is to simply add the *order date* and *result date and time* to the Observation table and the Conventions document will say to fill in those dates if they are available.  These columns will be optional if the source data does NOT contain this information.
+##Homework###
+For those with access to the Google shared drive, there is an new version of the "Conventions for Populating OMOP CDM v5 for PCORnet v3_dtk.docx" that was described in a previous email to be reviewed.
+
+
 
